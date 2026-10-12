@@ -16,17 +16,17 @@
 #### 1. Ảnh màn hình Giao diện chính
 DataGridView hiển thị danh sách sinh viên; cụm nhập liệu (Mã SV, Họ tên, Tuổi, Giới tính, Avatar) liên kết 2 chiều với dòng đang chọn qua BindingSource.
 
-![Giao diện chính](./screenshots/bai4_6_main_ui.png)
+![Giao diện chính](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_6_main_ui.png)
 
 #### 2. Ảnh màn hình Chức năng thực thi / Kết quả
 Thêm sinh viên mới SV006, nhập thông tin và gán ảnh đại diện: lưới và PictureBox tự đồng bộ theo dòng đang chọn.
 
-![Thực thi chức năng](./screenshots/bai4_6_execution_result.png)
+![Thực thi chức năng](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_6_execution_result.png)
 
 #### 3. Ảnh màn hình Kiểm tra lỗi (Validation)
 Họ tên chứa chữ số, bấm Cập nhật thì chương trình báo lỗi.
 
-![Kiểm tra lỗi](./screenshots/bai4_6_validation_error.png)
+![Kiểm tra lỗi](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_6_validation_error.png)
 
 ---
 
@@ -35,21 +35,21 @@ Họ tên chứa chữ số, bấm Cập nhật thì chương trình báo lỗi.
 #### 1. Ảnh màn hình Giao diện chính
 FormMain là MDI Parent với MenuStrip, ToolStrip, StatusStrip; hai Form con Quản lý Sinh viên và Quản lý Sản phẩm sắp xếp kiểu Cascade.
 
-![Giao diện chính](./screenshots/bai4_7_main_ui.png)
+![Giao diện chính](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_7_main_ui.png)
 
 #### 2. Ảnh màn hình Chức năng thực thi / Kết quả
 Thêm sinh viên trên Form con: Form con truyền thông điệp "Thêm thành công..." lên StatusStrip của Form cha.
 
-![Thực thi chức năng](./screenshots/bai4_7_execution_result.png)
+![Thực thi chức năng](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_7_execution_result.png)
 
 ContextMenuStrip trên DataGridView của Form con (Xem chi tiết, Xóa dòng, Làm mới dữ liệu):
 
-![Menu ngữ cảnh](./screenshots/bai4_7_context_menu.png)
+![Menu ngữ cảnh](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_7_context_menu.png)
 
 #### 3. Ảnh màn hình Kiểm tra lỗi (Validation)
 Mở lại Form Quản lý Sinh viên khi Form đã mở: chương trình không mở lặp mà chỉ kích hoạt Form cũ và báo trên StatusStrip.
 
-![Kiểm tra lỗi](./screenshots/bai4_7_validation_error.png)
+![Kiểm tra lỗi](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_7_validation_error.png)
 
 ---
 
@@ -58,14 +58,14 @@ Mở lại Form Quản lý Sinh viên khi Form đã mở: chương trình không
 #### 1. Ảnh màn hình Giao diện chính
 Giao diện sau khi nạp xong danh sách sinh viên.
 
-![Giao diện chính](./screenshots/bai4_8_main_ui.png)
+![Giao diện chính](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_8_main_ui.png)
 
 #### 2. Ảnh màn hình Chức năng thực thi / Kết quả
 Đang nạp dữ liệu bất đồng bộ: ProgressBar và nhãn phần trăm trên Form con, đồng thời phần trăm hiển thị trên StatusStrip của Form cha.
 
-![Thực thi chức năng](./screenshots/bai4_8_execution_result.png)
+![Thực thi chức năng](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_8_execution_result.png)
 
 #### 3. Ảnh màn hình Kiểm tra lỗi (Validation)
 Trong lúc nạp, nút "Nạp dữ liệu" bị khóa để tránh kích hoạt trùng (xem ảnh ở mục 2). Khi tiến trình kết thúc, chương trình mở lại nút và hiển thị thông báo hoàn tất.
 
-![Kiểm tra lỗi](./screenshots/bai4_8_validation_error.png)
+![Kiểm tra lỗi](./Tr%E1%BA%A7n%20Nh%E1%BA%ADt%20%C4%90%C3%B4ng%20BaiTap_Chuong4/screenshots/bai4_8_validation_error.png)
